@@ -1,0 +1,960 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast10day": 1
+  }
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"1:07 PM CET",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"title":"Monday",
+		"fcttext":"Cloudy skies. High 54F. Winds WSW at 10 to 15 mph.",
+		"fcttext_metric":"Cloudy skies. High 12C. Winds WSW at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Monday Night",
+		"fcttext":"Cloudy skies with periods of rain late. Low 49F. Winds SW at 10 to 15 mph. Chance of rain 70%.",
+		"fcttext_metric":"Cloudy with rain developing after midnight. Low 9C. Winds SW at 15 to 25 km/h. Chance of rain 70%.",
+		"pop":"70"
+		}
+		,
+		{
+		"period":2,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Tuesday",
+		"fcttext":"Occasional rain. High around 55F. Winds SW at 10 to 15 mph. Chance of rain 100%.",
+		"fcttext_metric":"Periods of rain. High 13C. Winds SW at 15 to 25 km/h. Chance of rain 100%.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Cloudy with periods of rain. Low 52F. Winds SW at 15 to 25 mph. Chance of rain 80%.",
+		"fcttext_metric":"Cloudy with periods of rain. Low 11C. Winds SW at 25 to 40 km/h. Chance of rain 80%.",
+		"pop":"80"
+		}
+		,
+		{
+		"period":4,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Wednesday",
+		"fcttext":"Cloudy and windy at times with occasional light rain...mainly in the morning. High 53F. Winds W at 20 to 30 mph. Chance of rain 80%.",
+		"fcttext_metric":"Windy with intermittent light rain early. Clouds will linger through the afternoon. High 12C. Winds W at 25 to 40 km/h. Chance of rain 80%.",
+		"pop":"80"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Wednesday Night",
+		"fcttext":"A few showers early, becoming a steady light rain late. Low 48F. Winds WSW at 15 to 25 mph. Chance of rain 80%.",
+		"fcttext_metric":"A few showers in the evening, becoming a steady light rain overnight. Low 9C. Winds WSW at 25 to 40 km/h. Chance of rain 80%.",
+		"pop":"80"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Thursday",
+		"fcttext":"Light rain early...then remaining cloudy with showers in the afternoon. High 54F. Winds WSW at 15 to 25 mph. Chance of rain 80%.",
+		"fcttext_metric":"Steady light rain in the morning. Showers continuing in the afternoon. High 12C. Winds WSW at 15 to 30 km/h. Chance of rain 80%.",
+		"pop":"80"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Thursday Night",
+		"fcttext":"Showers early, becoming a steady rain late. Low near 45F. Winds WSW at 10 to 20 mph. Chance of rain 70%. Rainfall around a quarter of an inch.",
+		"fcttext_metric":"Rain showers in the evening will evolve into a more steady rain overnight. Low 7C. Winds WSW at 15 to 30 km/h. Chance of rain 60%.",
+		"pop":"70"
+		}
+		,
+		{
+		"period":8,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Friday",
+		"fcttext":"Overcast with rain showers at times. High 48F. Winds W at 10 to 20 mph. Chance of rain 50%.",
+		"fcttext_metric":"Overcast with rain showers at times. High 9C. Winds W at 15 to 25 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":9,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Friday Night",
+		"fcttext":"Steady light rain in the evening. Showers continuing late. Low near 35F. Winds NW at 5 to 10 mph. Chance of rain 70%.",
+		"fcttext_metric":"Steady light rain in the evening. Showers continuing late. Low 2C. Winds NW at 10 to 15 km/h. Chance of rain 70%.",
+		"pop":"70"
+		}
+		,
+		{
+		"period":10,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Saturday",
+		"fcttext":"Rain showers in the morning becoming a steady light rain in the afternoon. High 42F. Winds WNW at 5 to 10 mph. Chance of rain 60%.",
+		"fcttext_metric":"Rain showers in the morning becoming a steady light rain in the afternoon. High 6C. Winds WNW at 10 to 15 km/h. Chance of rain 60%.",
+		"pop":"60"
+		}
+		,
+		{
+		"period":11,
+		"icon":"nt_snow",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_snow.gif",
+		"title":"Saturday Night",
+		"fcttext":"Rain and snow showers in the evening. Then becoming partly cloudy late. Low 31F. Winds WNW at 5 to 10 mph. Chance of precip 40%.",
+		"fcttext_metric":"Cloudy with rain and snow showers in the evening. Partial clearing late. Low around 0C. Winds WNW at 10 to 15 km/h. Chance of precip 40%.",
+		"pop":"40"
+		}
+		,
+		{
+		"period":12,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Some sun in the morning with increasing clouds during the afternoon. High 38F. Winds WNW at 10 to 15 mph.",
+		"fcttext_metric":"Some sun in the morning with increasing clouds during the afternoon. High 3C. Winds WNW at 15 to 25 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":13,
+		"icon":"nt_snow",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_snow.gif",
+		"title":"Sunday Night",
+		"fcttext":"Variably cloudy with snow showers. Low near 30F. Winds WSW at 5 to 10 mph. Chance of snow 50%. Snowfall around one inch.",
+		"fcttext_metric":"Mostly cloudy. Snow showers around after midnight. Low -1C. Winds WSW at 10 to 15 km/h. Chance of snow 50%. Snow accumulations less than 2cm.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":14,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Monday",
+		"fcttext":"Cloudy skies early will become partly cloudy later in the day. High 39F. Winds WSW at 5 to 10 mph.",
+		"fcttext_metric":"Cloudy skies early, followed by partial clearing. High 4C. Winds WSW at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":15,
+		"icon":"nt_mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+		"title":"Monday Night",
+		"fcttext":"Partly cloudy skies in the evening, then becoming cloudy overnight. Low 32F. Winds WSW at 10 to 15 mph.",
+		"fcttext_metric":"Partly cloudy skies during the evening will give way to cloudy skies overnight. Low around 0C. Winds WSW at 15 to 25 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":16,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Tuesday",
+		"fcttext":"Rain showers early with overcast skies later in the day. High near 40F. Winds WSW at 10 to 15 mph. Chance of rain 40%.",
+		"fcttext_metric":"A few showers early with overcast skies later in the day. High near 5C. Winds WSW at 15 to 25 km/h. Chance of rain 30%.",
+		"pop":"40"
+		}
+		,
+		{
+		"period":17,
+		"icon":"nt_snow",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_snow.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Rain and snow showers mixed after midnight. Low 33F. Winds W at 10 to 15 mph. Chance of precip 40%.",
+		"fcttext_metric":"Rain and snow showers mixed after midnight. Low near 0C. Winds W at 15 to 25 km/h. Chance of precip 40%.",
+		"pop":"40"
+		}
+		,
+		{
+		"period":18,
+		"icon":"snow",
+		"icon_url":"http://icons.wxug.com/i/c/k/snow.gif",
+		"title":"Wednesday",
+		"fcttext":"Cloudy with rain and snow showers in the morning. Partial clearing in the afternoon. High near 40F. Winds WSW at 10 to 15 mph. Chance of rain 50%.",
+		"fcttext_metric":"Rain and snow showers in the morning. Then becoming partly cloudy in the afternoon. High 4C. Winds WSW at 10 to 15 km/h. Chance of rain 40%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":19,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Mainly clear skies. Low 33F. Winds WSW at 5 to 10 mph.",
+		"fcttext_metric":"Mainly clear skies. Low near 0C. Winds WSW at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1447696800",
+	"pretty":"7:00 PM CET on November 16, 2015",
+	"day":16,
+	"month":11,
+	"year":2015,
+	"yday":319,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"November",
+	"monthname_short":"Nov",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Berlin"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"low": {
+		"fahrenheit":"49",
+		"celsius":"9"
+		},
+		"conditions":"Overcast",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.05,
+		"mm": 1
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.05,
+		"mm": 1
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "WSW",
+		"degrees": 237
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "WSW",
+		"degrees": 237
+		},
+		"avehumidity": 81,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1447783200",
+	"pretty":"7:00 PM CET on November 17, 2015",
+	"day":17,
+	"month":11,
+	"year":2015,
+	"yday":320,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"November",
+	"monthname_short":"Nov",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Berlin"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"55",
+		"celsius":"13"
+		},
+		"low": {
+		"fahrenheit":"52",
+		"celsius":"11"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":100,
+		"qpf_allday": {
+		"in": 0.32,
+		"mm": 8
+		},
+		"qpf_day": {
+		"in": 0.19,
+		"mm": 5
+		},
+		"qpf_night": {
+		"in": 0.12,
+		"mm": 3
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "SW",
+		"degrees": 225
+		},
+		"avewind": {
+		"mph": 12,
+		"kph": 19,
+		"dir": "SW",
+		"degrees": 225
+		},
+		"avehumidity": 92,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1447869600",
+	"pretty":"7:00 PM CET on November 18, 2015",
+	"day":18,
+	"month":11,
+	"year":2015,
+	"yday":321,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"November",
+	"monthname_short":"Nov",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Berlin"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"53",
+		"celsius":"12"
+		},
+		"low": {
+		"fahrenheit":"48",
+		"celsius":"9"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":80,
+		"qpf_allday": {
+		"in": 0.20,
+		"mm": 5
+		},
+		"qpf_day": {
+		"in": 0.10,
+		"mm": 3
+		},
+		"qpf_night": {
+		"in": 0.09,
+		"mm": 2
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 30,
+		"kph": 48,
+		"dir": "W",
+		"degrees": 277
+		},
+		"avewind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "W",
+		"degrees": 277
+		},
+		"avehumidity": 80,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1447956000",
+	"pretty":"7:00 PM CET on November 19, 2015",
+	"day":19,
+	"month":11,
+	"year":2015,
+	"yday":322,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"November",
+	"monthname_short":"Nov",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Berlin"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"low": {
+		"fahrenheit":"45",
+		"celsius":"7"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":80,
+		"qpf_allday": {
+		"in": 0.34,
+		"mm": 9
+		},
+		"qpf_day": {
+		"in": 0.14,
+		"mm": 4
+		},
+		"qpf_night": {
+		"in": 0.20,
+		"mm": 5
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 25,
+		"kph": 40,
+		"dir": "WSW",
+		"degrees": 254
+		},
+		"avewind": {
+		"mph": 17,
+		"kph": 27,
+		"dir": "WSW",
+		"degrees": 254
+		},
+		"avehumidity": 82,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1448042400",
+	"pretty":"7:00 PM CET on November 20, 2015",
+	"day":20,
+	"month":11,
+	"year":2015,
+	"yday":323,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"November",
+	"monthname_short":"Nov",
+	"weekday_short":"Fri",
+	"weekday":"Friday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Berlin"
+},
+		"period":5,
+		"high": {
+		"fahrenheit":"48",
+		"celsius":"9"
+		},
+		"low": {
+		"fahrenheit":"35",
+		"celsius":"2"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":50,
+		"qpf_allday": {
+		"in": 0.36,
+		"mm": 9
+		},
+		"qpf_day": {
+		"in": 0.17,
+		"mm": 4
+		},
+		"qpf_night": {
+		"in": 0.18,
+		"mm": 5
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "W",
+		"degrees": 272
+		},
+		"avewind": {
+		"mph": 13,
+		"kph": 21,
+		"dir": "W",
+		"degrees": 272
+		},
+		"avehumidity": 78,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1448128800",
+	"pretty":"7:00 PM CET on November 21, 2015",
+	"day":21,
+	"month":11,
+	"year":2015,
+	"yday":324,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"November",
+	"monthname_short":"Nov",
+	"weekday_short":"Sat",
+	"weekday":"Saturday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Berlin"
+},
+		"period":6,
+		"high": {
+		"fahrenheit":"42",
+		"celsius":"6"
+		},
+		"low": {
+		"fahrenheit":"31",
+		"celsius":"-1"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":60,
+		"qpf_allday": {
+		"in": 0.13,
+		"mm": 3
+		},
+		"qpf_day": {
+		"in": 0.11,
+		"mm": 3
+		},
+		"qpf_night": {
+		"in": 0.02,
+		"mm": 1
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "WNW",
+		"degrees": 291
+		},
+		"avewind": {
+		"mph": 8,
+		"kph": 13,
+		"dir": "WNW",
+		"degrees": 291
+		},
+		"avehumidity": 81,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1448215200",
+	"pretty":"7:00 PM CET on November 22, 2015",
+	"day":22,
+	"month":11,
+	"year":2015,
+	"yday":325,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"November",
+	"monthname_short":"Nov",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Berlin"
+},
+		"period":7,
+		"high": {
+		"fahrenheit":"38",
+		"celsius":"3"
+		},
+		"low": {
+		"fahrenheit":"30",
+		"celsius":"-1"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.08,
+		"mm": 2
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.08,
+		"mm": 2
+		},
+		"snow_allday": {
+		"in": 0.8,
+		"cm": 2.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.8,
+		"cm": 2.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "WNW",
+		"degrees": 284
+		},
+		"avewind": {
+		"mph": 12,
+		"kph": 19,
+		"dir": "WNW",
+		"degrees": 284
+		},
+		"avehumidity": 79,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1448301600",
+	"pretty":"7:00 PM CET on November 23, 2015",
+	"day":23,
+	"month":11,
+	"year":2015,
+	"yday":326,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"November",
+	"monthname_short":"Nov",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Berlin"
+},
+		"period":8,
+		"high": {
+		"fahrenheit":"39",
+		"celsius":"4"
+		},
+		"low": {
+		"fahrenheit":"32",
+		"celsius":"0"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":20,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "WSW",
+		"degrees": 257
+		},
+		"avewind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "WSW",
+		"degrees": 257
+		},
+		"avehumidity": 79,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1448388000",
+	"pretty":"7:00 PM CET on November 24, 2015",
+	"day":24,
+	"month":11,
+	"year":2015,
+	"yday":327,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"November",
+	"monthname_short":"Nov",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Berlin"
+},
+		"period":9,
+		"high": {
+		"fahrenheit":"40",
+		"celsius":"4"
+		},
+		"low": {
+		"fahrenheit":"33",
+		"celsius":"1"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":40,
+		"qpf_allday": {
+		"in": 0.04,
+		"mm": 1
+		},
+		"qpf_day": {
+		"in": 0.02,
+		"mm": 1
+		},
+		"qpf_night": {
+		"in": 0.02,
+		"mm": 1
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "WSW",
+		"degrees": 253
+		},
+		"avewind": {
+		"mph": 12,
+		"kph": 19,
+		"dir": "WSW",
+		"degrees": 253
+		},
+		"avehumidity": 85,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1448474400",
+	"pretty":"7:00 PM CET on November 25, 2015",
+	"day":25,
+	"month":11,
+	"year":2015,
+	"yday":328,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"November",
+	"monthname_short":"Nov",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Berlin"
+},
+		"period":10,
+		"high": {
+		"fahrenheit":"40",
+		"celsius":"4"
+		},
+		"low": {
+		"fahrenheit":"33",
+		"celsius":"1"
+		},
+		"conditions":"Snow",
+		"icon":"snow",
+		"icon_url":"http://icons.wxug.com/i/c/k/snow.gif",
+		"skyicon":"",
+		"pop":50,
+		"qpf_allday": {
+		"in": 0.02,
+		"mm": 1
+		},
+		"qpf_day": {
+		"in": 0.02,
+		"mm": 1
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "WSW",
+		"degrees": 258
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "WSW",
+		"degrees": 258
+		},
+		"avehumidity": 88,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}
