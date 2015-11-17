@@ -1,0 +1,40 @@
+﻿CREATE TABLE weather(
+	weather_id integer UNIQUE,
+	snow_night integer, --millimeters
+	snow_day integer,
+	max_temp float, -- celsius
+	min_temp float,
+	average_wind_velocity float,--kilometers per hour
+	direction_average_wind varchar(10), --North, SW, WNW, ... 
+	max_wind_velocity float, 
+	direction_max_wind varchar(10), 
+	average_humidity float, -- percent
+	quantitative_precipitation_night float,  --millimeters
+	quantitative_precipitation_day float, --millimeters
+	PRIMARY KEY (weather_id)
+);
+
+CREATE TABLE weatherstation(
+	name varchar(80),
+	node_id NOT NULL REFERENCES node(node_id),
+	-- tag?? a node optionally has a tag; when a node is a weatherstation the tag is a 'man_made' tag with the value 'monitoring_station'
+	PRIMARY KEY(node_id)
+);
+
+CREATE TABLE measured(
+	date date NOT NULL,
+	weather_id integer NOT NULL,
+	node_id integer NOT NULL,
+	FOREIGN KEY (weather_id) REFERENCES weather(weather_id),
+	FOREIGN KEY (node_id) REFERENCES node(node_id),
+	PRIMARY KEY(weather_id, node_id)
+);
+
+CREATE TABLE forecasts(
+	date date NOT NULL,
+	weather_id integer NOT NULL,
+	node_id integer NOT NULL,
+	FOREIGN KEY (weather_id) REFERENCES weather(weather_id),
+	FOREIGN KEY (node_id) REFERENCES node(node_id),
+	PRIMARY KEY(weather_id, node_id)
+);
